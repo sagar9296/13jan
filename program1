@@ -1,0 +1,29 @@
+class Rectangle{
+    int length;
+    int breadth;
+    public:
+
+    Rectangle()
+    { 
+         length = 0;
+         breadth = 0;
+
+    }
+
+    Rectangle(length)
+    {
+        
+         length = 4 ;
+         breadth = 5;
+
+    }
+    Rectangle(length,breadth)
+    {
+        length = 7;
+        breadth = 8;
+    }
+     void  area()
+    {
+        cout<<(length*breadth);
+    }
+};
